@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id=top-section>
+        <h1 id="lib-title">Friendly Neighborhood Library</h1>
+        <p id="descp">With local storage, By  <a href="github">Pratyush Kumar Patnaik</a></p>
+    </div>
+    <main>
+        <div id="page-display">
+            <button id="Add">Add new book</button>
+            <div class="table">
+                <table id="table">
+                  <thead><tr>
+                      <th>Title</th>
+                      <th>Author</th>
+                      <th>Pages</th>
+                      <th>Read</th>
+                      <th></th>
+                    </tr></thead>
+                  <tbody>
+                  </tbody>
+                </table>
+              </div>
+        </div>
+        <div id="form">
+            <h2 id="adding-title">Add a book</h2>
+            <input type="text" id="title" class="inputs" autocomplete="off" placeholder="Title">
+            <input type="text" id="author" class="inputs" autocomplete="off" placeholder="Author">
+            <input type="number" id="pages" class="inputs" autocomplete="off" placeholder="Pages">
+            <fieldset role="radiogroup">
+              <legend id="read-book">Read book?</legend>
+              <label for="yes">
+                <input type="radio" id="yes" name="read" value="yes">
+                <span style="color: whitesmoke; font-family: sans-serif; font-size: 12px">Yes</span>
+              </label>
+              <label for="no">
+                <input type="radio" id="no" name="read" value="no" checked>
+                <span style="color: whitesmoke; font-family: sans-serif; font-size: 12px">No</span>
+              </label>
+            </fieldset>
+            <div id="button-group">
+              <button id="submit">Submit</button>
+              <button id="return">Return</button>
+           </div>
+        </div>
+    </main>
+</body>
+<script src="scripts/script.js"></script>
+</html>

@@ -1,0 +1,186 @@
+body {
+    background-color: #182247;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lib-title {
+    font-size: 50px;
+    font-family: "Architects Daughter";
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+a {
+    color: #57d7f4;
+    text-decoration-line: underline;
+}
+
+#descp {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 2px;
+    color: #57d7f4;
+}
+
+#Add {
+    font-family: sans-serif;
+    margin: 30px;
+    color:white;
+    background-color: #05133d;
+    border-radius: 20px;
+    border: 1px solid #05133d;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+#Add:hover {
+    border: 1px solid #57d7f4;
+}
+
+table {
+    width: 100%;
+}
+
+/* tbody {
+} */
+
+th {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 15px;
+    text-align:center;
+    color: #bbbfca;
+    width: 100px;
+}
+
+td {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #131c3a;
+}
+
+.x-button {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: transparent;
+    border: none;
+    color:white;
+    cursor: pointer;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.x-button:hover {
+    color:red;
+}
+
+.edit-button {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: transparent;
+    border: none;
+    color:#57d7f4;
+    cursor: pointer;
+}
+
+.edit-button:hover {
+    text-decoration-line: underline;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#adding-title {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    margin: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inputs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #131c3a;
+    color: whitesmoke;
+    border: none;
+}
+.inputs:focus {
+    outline: none;
+}
+
+fieldset {
+    border-radius: 30px;
+    border-color: #131c3a;
+}
+
+#read-book {
+    color: #757575;
+}
+
+#button-group {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#submit {font-size: 15px;
+    font-family: sans-serif;
+    color: lightgray;
+    width: 199px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #131c3a;
+    background-color: #131c3a;
+}
+#submit:hover {
+    border: 1px solid #57d7f4;
+}
+
+#return {font-size: 15px;
+    font-family: sans-serif;
+    color: lightgray;
+    width: 199px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #131c3a;
+    background-color: #131c3a;
+}
+#return:hover {
+    border: 1px solid #57d7f4;
+}
