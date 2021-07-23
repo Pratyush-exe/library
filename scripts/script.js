@@ -6,7 +6,15 @@ let table = document.getElementById("table");
 let submit = document.getElementById("submit");
 fillUp.style.display  = "none";
 
-let myLibrary = JSON.parse(localStorage.getItem('library'));
+let myLibrary = [
+    {
+        name: "Harry Potter Series",
+        author: "J.K. Rowling",
+        pages: "223",
+        read: "Yes"
+    }
+];
+myLibrary.concat(JSON.parse(localStorage.getItem('library')));
 
 class Book {
     constructor(name, author, pages, read) {
@@ -31,7 +39,6 @@ submit.addEventListener('click', function () {
     });   
     pageDisplay.style.display = "flex";
     fillUp.style.display = "none";
-    console.log(myLibrary);
     addBookToLibrary();
 })
 
