@@ -6,16 +6,7 @@ let table = document.getElementById("table");
 let submit = document.getElementById("submit");
 fillUp.style.display  = "none";
 
-let myLibrary = [
-    {
-        name: "Harry Potter Series",
-        author: "J.K. Rowling",
-        pages: "223",
-        read: "Yes"
-    }
-];
-window.localStorage.setItem("library", JSON.stringify(myLibrary))
-myLibrary.concat(JSON.parse(localStorage.getItem('library')));
+let myLibrary = JSON.parse(localStorage.getItem('library'));
 
 class Book {
     constructor(name, author, pages, read) {
