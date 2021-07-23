@@ -14,6 +14,7 @@ let myLibrary = [
         read: "Yes"
     }
 ];
+window.localStorage.setItem("library", JSON.stringify(myLibrary))
 myLibrary.concat(JSON.parse(localStorage.getItem('library')));
 
 class Book {
